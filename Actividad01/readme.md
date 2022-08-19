@@ -47,7 +47,7 @@ server.listen(port, hostname, () => {
 Desde la terminal, en la carpeta de nuestro proyecto, ejecutar:
 
 `node app.js`
-
+ 
 Deberíamos de obener un mensaje indicando que el servidor está ejecutándose:
 
 `Server running in http://127.0.0.1:3000`
