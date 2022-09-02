@@ -38,3 +38,30 @@ npm start
 
 Puedes ver en la consola que el servidor está disponible y escuchando nuevas conexiones. Desde un browser si ingresamos a http://localhost:3000 podemos ver el mensaje de bienvenida de Express. A partir de ahora iremos creando nuestro modelo, siguiendo interfaces web (páginas HTML) y una API REST. Vamos a trabajar con una arquitectura MVC, Model View Controller.
 
+
+Antes de comenzar a trabajar, instalaremos nodemon para agilizar las recargas de la página:
+
+````
+npm install nodemon --save-dev
+````
+
+Agregamos un comando para iniciar el proyecto usando nodemon. En el archivo ```package.json``` añadir:
+
+````
+"scripts": {
+  "start": "node ./bin/www",
+  "devstart" : "nodemon ./bin/www"
+},
+````
+
+Ahora podemos iniciar el proyecto con el comando:
+
+````
+npm run devstart
+````
+
+  
+En este momento podemos agregar algo de diseño, para este caso usaremos unos [themes](https://startbootstrap.com/) Bootstrap.
+
+Para la parte de PUG podemos usar un [traductor](https://html-to-pug.com/).
+
