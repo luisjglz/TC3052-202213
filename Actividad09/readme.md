@@ -53,7 +53,7 @@ De tal forma que nuestro `index.html` quedaría de la siguiente manera:
 ```
 
 Con esto es suficiente para tener React dentro de un archivo, sin embargo este acercamiento es el menos común y es el que más problema nos traera a futuro.
-
+ 
 ## Agregar React a través de Webpack
 
 La otra forma de utilizar React es a través de un sistema de empaquetación de recursos como Webpack.
