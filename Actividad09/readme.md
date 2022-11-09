@@ -1,5 +1,5 @@
 # Introducción a React
-
+ 
 ## Agregar React a través de un CDN
 
 Agregar React a un archivo HTML es muy simple, si consideramos que tenemos el siguiente archivo `index.html`:
