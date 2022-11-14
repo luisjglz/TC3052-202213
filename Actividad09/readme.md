@@ -24,7 +24,7 @@ Agregar React a un archivo HTML es muy simple, si consideramos que tenemos el si
 </body>
 </html>
 ```
-
+ 
 Para agregar React solo tenemos que importarlo de algún CDN como:
 
 ```
